@@ -1,0 +1,4 @@
+#ifndef ILAMPPLAGIN_H
+#define ILAMPPLAGIN_H
+
+#endif // ILAMPPLAGIN_H

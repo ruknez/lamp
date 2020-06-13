@@ -1,0 +1,4 @@
+#ifndef CCOMMADPARS_H
+#define CCOMMADPARS_H
+
+#endif // CCOMMADPARS_H

@@ -1,0 +1,4 @@
+#ifndef ICOMMANDGEN_H
+#define ICOMMANDGEN_H
+
+#endif // ICOMMANDGEN_H
