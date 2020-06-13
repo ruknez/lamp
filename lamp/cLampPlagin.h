@@ -1,4 +1,15 @@
-#ifndef ILAMPPLAGIN_H
-#define ILAMPPLAGIN_H
+#pragma once
 
-#endif // ILAMPPLAGIN_H
+#include <QHostAddress>
+#include <QString>
+
+class cLampPlagin
+{
+public:
+    cLampPlagin();
+    cLampPlagin( const QString & data );
+
+private:
+    quint32 port_;
+    QHostAddress address_;
+};

@@ -1,4 +1,11 @@
-#ifndef ICOMMANDGEN_H
-#define ICOMMANDGEN_H
+#pragma once
 
-#endif // ICOMMANDGEN_H
+#include <QObject>
+
+class iCommandGen : public QObject
+{
+    Q_OBJECT
+public:
+signals:
+    virtual void commandReceived( const QByteArray & command ) = 0;
+};
