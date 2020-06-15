@@ -1,7 +1,7 @@
 #pragma once
 
+#include <QColor>
 #include <QObject>
-#include <QRgb>
 
 class cCommandPars final : public QObject
 {
@@ -9,11 +9,11 @@ class cCommandPars final : public QObject
 public:
     cCommandPars();
 
-    ~cCommandPars();
+    virtual ~cCommandPars();
 signals:
     void lampOn();
     void lampOFF();
-    void lampColor( const QRgb & collor );
+    void lampColor( const QColor & collor );
 
 public slots:
     void getCommand( const QByteArray & command );

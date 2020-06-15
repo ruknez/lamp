@@ -1,4 +1,4 @@
-#include "cCommadPars.h"
+#include "cCommandPars.h"
 #include "eCommands.h"
 
 //===============================================================================

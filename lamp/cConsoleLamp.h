@@ -1,4 +1,15 @@
-#ifndef CCOMSOLELAMP_H
-#define CCOMSOLELAMP_H
+#pragma once
 
-#endif // CCOMSOLELAMP_H
+#include "iLampImplementation.h"
+
+class cConsoleLamp final : public iLampImplementation
+{
+    Q_OBJECT
+public:
+    cConsoleLamp();
+    virtual ~cConsoleLamp();
+public slots:
+    virtual void OnLamp() override;
+    virtual void OffLamp() override;
+    virtual void ColorLamp( const QColor & collor ) override;
+};

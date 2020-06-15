@@ -19,16 +19,20 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 SOURCES += \
     cCommandPars.cpp \
+    cConsoleLamp.cpp \
+    cLampPlagin.cpp \
     cNetworkReceiverTCP.cpp \
     main.cpp \
     mainwindow.cpp
 
 HEADERS += \
-    cCommadPars.h \
+    cCommandPars.h \
+    cConsoleLamp.h \
     cLampPlagin.h \
     cNetworkReceiverTCP.h \
     eCommands.h \
     iCommandGen.h \
+    iLampImplementation.h \
     mainwindow.h
 
 FORMS += \

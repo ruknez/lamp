@@ -1,11 +1,14 @@
-#include "mainwindow.h"
-
+#include "MyTCPServer.h"
 #include <QApplication>
+#include <QtGui>
 
-int main(int argc, char *argv[])
+
+int main( int argc, char ** argv )
 {
-    QApplication a(argc, argv);
-    MainWindow w;
-    w.show();
-    return a.exec();
+    QApplication app( argc, argv );
+    MyServer server( 9999 );
+
+    server.show();
+
+    return app.exec();
 }
