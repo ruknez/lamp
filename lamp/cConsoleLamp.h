@@ -1,0 +1,4 @@
+#ifndef CCOMSOLELAMP_H
+#define CCOMSOLELAMP_H
+
+#endif // CCOMSOLELAMP_H

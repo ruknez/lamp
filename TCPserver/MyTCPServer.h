@@ -1,0 +1,4 @@
+#ifndef MYTCPSERVER_H
+#define MYTCPSERVER_H
+
+#endif // MYTCPSERVER_H
